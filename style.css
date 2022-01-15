@@ -128,8 +128,13 @@ p,
 }
 /* -----------------------Vlog ------------------------------*/
 .vlog {
+    margin-top: 80px;
   display: flex;
   justify-content: space-between;
+}
+
+.vlog .vlog-img img{
+    max-width: 80%;
 }
 
 .vlog-title {
@@ -221,12 +226,10 @@ p,
   }
 }
 /* ----------------------  Tablet Devices   -------------------------*/
-@media only screen and (max-width:992px) {
+@media only screen and (min-width:688px)and (max-width:992px) {
  .container{
     max-width: 100%;
-    
-    
-}
+    }
 header{
     margin-top:25px;
 }
