@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "name": "invoice-master-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zillur-rgb/invoice-master-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zillur-rgb/invoice-master-server/issues"
+  },
+  "homepage": "https://github.com/zillur-rgb/invoice-master-server#readme",
+  "description": ""
+}
